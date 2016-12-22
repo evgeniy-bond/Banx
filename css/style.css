@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700|PT+Sans:400,700');
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'PT Sans', sans-serif;
+
+h1, h2, h3, h4, p, img, form, body{
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 16px;
+    font-family: Georgia, sans-serif, Arial, 'Times New Roman';
+    color: rgb(79, 77, 106);
+    background-color: #ebebeb;
+}
+a {
+    text-decoration: none;
+}
+.main-wrap {
+    max-width: 1545px;
+    margin: 0 auto;
+}
+.wrap {
+    min-height: 1130px;
+    margin: 0 auto;
+    background: url(../images/bg-3.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+header {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: justify;
+    height: 85px;
+}
+header:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+header #touch-menu {
+    display: none;
+    color: white; 
+    font-family: 'Pt Sans';
+    font-weight: bold;
+    padding: 0 10px;
+}
+header .logo {
+    display: inline-block;
+    height: 100%;
+    position: relative;
+    padding: 0 10px;
+}
+header .logo img {
+    top: 24px;
+    position: absolute;
+}
+header .logo:before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+header .nav {
+    display: inline-block;
+}
+header .nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+header .nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+header .nav ul li a {
+    font-family: 'Times New Roman';
+    font-size: 0.75em;
+    text-transform: uppercase;
+    color: rgb(79, 77, 106);
+}
+header .nav ul li a:hover {
+    border-bottom: 1px solid rgb(79, 77, 106);
+}
+.area1 {
+    max-width: 960px;
+    margin: 118px auto 0;
+    text-align: center;
+}
+.area1 .slogan {
+    font-family: 'Georgia';
+    font-size: 1.5em;
+    font-style: italic;
+    line-height: 1.583;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+}
+.whiteline {
+    display: inline-block;
+    width: 39%;
+    height: 1px;
+    margin: 0 20px 5px;
+    content: '';
+    background-color: #fff;
+}
+.area1 h1 {
+    font-family: 'Georgia';
+    font-size: 7.65em;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+.area1 h2 {
+    font-family: 'Open Sans Bold';
+    font-size: 1.125em;
+    font-weight: bold;
+    line-height: 1.77;
+    text-transform: uppercase;
+    color: rgb(79, 77, 106);
+    margin-bottom: 25px;
+}
+.buttons .area1_button1 {
+    font-family: 'Georgia';
+    font-size: 1.125em;
+    font-style: italic;
+    line-height: 2.111;
+    display: inline-block;
+    margin: 38px 10px 0 0;
+    padding: 3px 56px;
+    text-align: center;
+    color: #fff;
+    border: 1px solid rgb(79, 77, 106);
+    border-radius: 25px;
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, .13),inset 0 2px 0 0 rgba(255, 255, 255, .75);
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .32);
+    background-image: -webkit-linear-gradient( left, rgb(79,77,106) 0%, rgb(110,108,138) 100%);
+    background-image: linear-gradient( 90deg, rgb(79,77,106) 0%, rgb(110,108,138) 100%);
+}
+.buttons .area1_button1:active {
+    background-image: -webkit-linear-gradient( top, rgb(79,77,106) 0%, rgb(110,108,138) 100%);
+    background-image: linear-gradient( 180deg, rgb(79,77,106) 0%, rgb(110,108,138) 100%);
+}
+.buttons .area1_button2 {
+    font-family: 'Georgia';
+    font-size: 1.125em;
+    font-style: italic;
+    line-height: 2.111;
+    display: inline-block;
+    margin: 38px 0 0 10px;
+    padding: 3px 56px;
+    color: #fff;
+    border: 1px solid rgb(146, 124, 144);
+    border-radius: 25px;
+    background-image: -webkit-linear-gradient( left, rgb(156,131,148) 0%, rgb(208,194,202) 100%);
+    background-image: linear-gradient( 90deg, rgb(156,131,148) 0%, rgb(208,194,202) 100%);
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, .13),inset 0 2px 0 0 rgba(255, 255, 255, .75);
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .32);
+}
+.buttons .area1_button2:active {
+    background-image: -webkit-linear-gradient( top, rgb(156,131,148) 0%, rgb(208,194,202) 100%);
+    background-image: linear-gradient( 180deg, rgb(156,131,148) 0%, rgb(208,194,202) 100%);
+}
+.area2 {
+    max-width: 960px;
+    margin: 0 auto ;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.buttons {display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+.area2_slogan {
+    font-family: 'Georgia';
+    font-size: 1.125em;
+    font-style: italic;
+    line-height: 2.111;
+    text-transform: uppercase;
+}
+
+.area2 h3 {
+    font-family: 'Georgia';
+    font-size: 4.5em;
+    font-weight: bold;
+    line-height: .56;
+    margin: 16px 0 30px;
+    text-transform: uppercase;
+}
+
+.area2 h3::after {
+    display: inline-block;
+    width: 90%;
+    height: 1px;
+    content: '';
+    background-color: rgb(255, 255, 255);
+}
+.works {
+    margin: 25px auto 0;
+    overflow: hidden;
+}
+.buttons:before {
+    display: block;
+    width: 96%;
+    height: 1px;
+    margin: 0 auto;
+    content: '';
+    background-color: rgb(255, 255, 255);
+}
+.works_work {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 24.6%;
+    vertical-align: top;
+    padding: 0 10px;
+    margin-bottom: 33px;
+}
+.fig {
+    width: 180px;
+    height: 180px;
+    position: relative;
+    border: 20px solid #efefef;
+    border-radius: 180px;
+    overflow: hidden;
+}
+.fig img {
+    left: 0px;
+    position: absolute;
+}
+.works_work:nth-child(odd) .fig img {
+   width: 100%;
+   height: 100%;
+}
+
+.work_header {
+    font-family: 'Georgia';
+    font-size: 1.375em;
+    font-style: italic;
+    line-height: 1.045;
+    display: block;
+    margin: 15px 0 8px;
+    text-align: left;
+}
+.works_work p {
+    font-family: 'Georgia';
+    font-size: 0.75em;
+    font-style: italic;
+    line-height: 1.917;
+    text-align: left;
+}
+.area3 {
+    width: 100%;
+    padding: 60px 0 60px;
+    background-color: #fff;
+}
+.area3_wrap {
+    overflow: hidden;
+    max-width: 960px;
+     margin: 0 auto; 
+}
+.area3 h4 {
+    font-family: 'Georgia';
+    font-size: 1.5em;
+    font-style: italic;
+    line-height: 1.125;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    text-align: left;
+}
+.area3_block {
+    font-family: 'Georgia';
+    font-size: 0.75em;
+    font-style: italic;
+    line-height: 1.917;
+    float: left;
+    box-sizing: border-box;
+    width: 33.33333333333333%;
+    padding-right: 20px;
+    padding-left: 5px;
+    text-align: left;
+}
+
+.area3_block_button {
+    font-family: 'Georgia';
+    font-size: 1em;
+    font-style: italic;
+    line-height: 5.917;
+    padding: 4px 19px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    background-color: rgb(79, 77, 106);
+}
+.area4 {
+    width: 100%;
+    padding: 50px 0 10px;
+    color: #fff;
+    background-color: #505050;
+}
+.area4_wrap {
+    max-width: 960px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+.area4_left_column {
+    float: left;
+    box-sizing: border-box;
+    width: 67.70833333333333%;
+    padding-right: 50px; 
+}
+.area4_right_column {
+    float: left;
+    box-sizing: border-box;
+    width: 31.25%;
+}
+.area4 h4 {
+    font-family: 'Georgia';
+    font-size: 1.5em;
+    font-style: italic;
+    line-height: 1.125;
+    margin-bottom: 15px;
+    text-align: left;
+}
+.area4 p {
+    font-family: 'Open Sans Regular';
+    font-size: 0.75em;
+    line-height: 2;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.copy {
+    padding-top: 40px;
+    font-family: 'Open Sans Regular';
+    font-size: 1em;
+    line-height: 5.917;
+    clear: both;
+    text-align: left;
+}
+@media screen and (max-width: 960px) {
+    .wrap {min-height: 700px;}
+    .wrap .area1 h1 {font-size: 6.25em;}
+    .whiteline {width: 37%;}
+    .works_work {width: 49.5%;} 
+    .fig {margin: 0 auto;} 
+    .work_header {text-align: center;}
+    .works_work p {width: 80%; margin: 0 auto; text-align: center;}
+    .buttons:before {width: 90%;}
+    .area3_wrap {padding: 0 20px}
+    .area4_wrap {padding: 0 20px}
+}
+@media screen and (max-width: 769px) {
+    .wrap header {
+        background-image: -webkit-linear-gradient( left, rgb(156,131,148) 0%, rgb(208,194,202) 100%);
+        background-image: linear-gradient( 90deg, rgb(156,131,148) 0%, rgb(208,194,202) 100%);
+        box-shadow: 0 1px 0 0 rgba(0, 0, 0, .13),inset 0 2px 0 0 rgba(255, 255, 255, .75);
+        position: relative;
+    }
+    .wrap header #touch-menu {
+        display: inline-block;
+    }
+    .wrap header .nav {
+        position: absolute; 
+        display: none; 
+        width: 100%;
+        background-image: -webkit-linear-gradient(left, rgb(156,131,148) 0%, rgb(208,194,202) 100%);
+        background-image: linear-gradient(to right, rgb(156,131,148) 0%, rgb(208,194,202) 100%); 
+    }
+    .wrap header .nav ul li {
+        margin: 0; 
+        display: block; 
+        border-top: 1px solid #fff; 
+        box-shadow: 2px 4px 2px grey;
+    }
+    .wrap header .nav ul li a {
+        color: white; 
+        padding: 15px 10px; 
+        font-family: 'Pt Sans'; 
+        font-weight: bold;
+        font-size: .9em; 
+        display: block; 
+    }
+    .wrap header .nav ul li a:hover {
+        border-bottom: none;
+    }
+    .wrap header .nav ul li:hover {
+        background-color: rgb(86, 85, 113);
+    }
+    .whiteline {width: 31%;}
+}
+@media screen and (max-width: 560px) {
+    .wrap .area1 h1 {font-size: 4em;}
+    .wrap .area1 h2 {font-size: 1em;}
+    .buttons:before {width: 80%;}
+    .whiteline {width: 15%;}
+    .buttons .area1_button1 { 
+        margin: 38px auto 0;
+    }
+    .buttons .area1_button2 { 
+        margin: 38px auto 0;
+    }
+    .area2 h3 {font-size: 3.375em; line-height: 1;}
+    .area3_block {width: 100%;}
+    .works_work {width: 100%;} 
+    .works_work p {font-size: 1em;}
+    .area2 h3::after {width: 80%;}
+    .area3_wrap p {font-size: 1.4em;}
+    .area4_wrap p {font-size: 1.1em;}
+    .area4_left_column {width: 100%;}
+    .area4_right_column {width: 100%;}
+}
